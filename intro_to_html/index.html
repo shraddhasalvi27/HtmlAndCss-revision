@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<style>
+    .subscribe-button{
+        background-color: red;
+        color: white;
+        height: 30px;
+        width: 100px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 1px;
+        transition: background-color 0.2s;
+    }
+     /* after hovering all this properties will apply */
+    .subscribe-button:hover{
+        background-color: black;
+        /* opacity: 0.3;   */
+        /* opacity: use to fade out the element; */
+    }
+    .subscribe-button:active{
+        background-color: blue;
+    }
+    /* above are the pseudo class */
+    .twitter-button{
+        color: white;
+        background-color: rgb(65, 181, 235);
+        border-radius: 15px;
+        height: 30px;
+        width: 70px;
+        border: none;
+        font-size: 17px;
+        margin-left: 10px;  
+        /* margin is a space between two elements */
+        transition: box-shadow 0.15sec;
+        
+        /* horizontal,vertical,blur,color */
+
+    }
+    .twitter-button:hover{
+        box-shadow: 5px 5px 5px rgb(0,0,0,0.15);
+        /* opacity: 0.3; */
+
+    }
+    .twitter-button:active{
+        background-color: rgb(24, 21, 21);
+
+    }
+
+    /* we will be learning about hover shadow and transitions */
+    
+</style>
+
+<!-- <p>
+    hello           shraddha
+</p>  -->
+<!-- extra spaces are ignored in html-->
+<button>
+    join
+</button>
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+<button class ="twitter-button">
+    tweet
+</button>
+<a href="https://www.youtube.com/watch?v=G3e-cpL7ofc" target="_blank">
+    Link to the supersimple.dev
+</a>
+</html>
+
+<!-- instead of adding height and width to the button we can addd margin and padding -->
+<!-- that is a box model -->
+<!-- one advantage of box model is that it will take the automated space as text required -->
+<!-- that is disadvantage of height and width -->
+<!-- margin and padding is a box model -->
+
