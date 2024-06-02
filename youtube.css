@@ -1,0 +1,20 @@
+.thumbnail1 {
+  width: 300px;
+  /* height: 300px; */
+  /* after decidimg width the image automatically take the height */
+  /* border: 3px;
+  border-color: black;
+  border-style: solid;
+  object-fit: contain; */
+  /* object fit shrink the image and fit in the box */
+}
+
+.search-box {
+  display: block;
+}
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: top;
+}
