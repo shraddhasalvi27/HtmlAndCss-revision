@@ -1,0 +1,69 @@
+.thumbnail1 {
+  width: 300px;
+  /* height: 300px; */
+  /* after decidimg width the image automatically take the height */
+  /* border: 3px;
+    border-color: black;
+    border-style: solid;
+    object-fit: contain; */
+  /* object fit shrink the image and fit in the box */
+}
+
+/* in inline block there are some alignment problems as it require some space between two elements */
+/* css grid overcome the problem with vertical alignment of inline display. */
+
+.video-preview {
+}
+.channel-picture {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+.profile-picture {
+  width: 36px;
+  border-radius: 25px;
+}
+.video-title {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.thumbnail-row {
+  margin-bottom: 12px;
+  position: relative;
+}
+.video-time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 8px;
+  right: 5px;
+  font-family: Roboto, Aerial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+}
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(220, 190, 190);
+}
+.video-author {
+  margin-bottom: 6px;
+}
+.grid-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 15px;
+}
